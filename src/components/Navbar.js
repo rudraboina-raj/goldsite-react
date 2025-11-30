@@ -1,18 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Navbar() {
+export default function Navbar() {
   return (
-    <div className="navbar">
-      <h2>GoldSite</h2>
-
-      <div>
-        <Link to="/">Home</Link>
-        <Link to="/products">Products</Link>
-        <Link to="/cart">Cart</Link>
-      </div>
-    </div>
+    <nav style={{ padding: 20, background: "#ddd" }}>
+      <Link to="/" style={{ marginRight: 20 }}>Home</Link>
+      <Link to="/products" style={{ marginRight: 20 }}>Products</Link>
+      <Link to="/cart">Cart</Link>
+    </nav>
   );
 }
-
-export default Navbar;

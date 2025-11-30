@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Gold Ring",
+    "price": 12000,
+    "description": "Beautiful gold ring for daily wear."
+  },
+  {
+    "id": 2,
+    "name": "Necklace",
+    "price": 35000,
+    "description": "Premium quality necklace."
+  },
+  {
+    "id": 3,
+    "name": "Bracelet",
+    "price": 18000,
+    "description": "Elegant handcrafted bracelet."
+  }
+]

@@ -1,16 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function ProductCard({ product }) {
+export default function ProductCard({ product }) {
   return (
-    <div className="product-card">
-      <h3>{product.title}</h3>
+    <div style={{ border: "1px solid #ccc", padding: 20, margin: 10 }}>
+      <h3>{product.name}</h3>
       <p>₹{product.price}</p>
-      <Link to={`/product/${product.id}`}>
-        <button className="btn">View</button>
-      </Link>
+      <Link to={`/product/${product.id}`}>View Details</Link>
     </div>
   );
 }
-
-export default ProductCard;
